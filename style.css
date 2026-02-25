@@ -1,0 +1,21 @@
+:root {
+    --primary-color:navy;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+ header{ 
+    color:var(--primary-color);
+    font-family:sans-serif,Impact, 'Arial Narrow Bold', ;  
+    
+} 
+
+img {
+  width: 200px;
+  transition: transform 0.3s ease; 
+}
+img:hover{
+    transform: scale(150%);
+
+}

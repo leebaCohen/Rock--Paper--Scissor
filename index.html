@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container center-align"> 
+
+    <header><h1>Rock, Paper, Scissors</h1></header>
+    <p class="flow-text">Click an icon or press R (for rock), P (for paper), or S (for scissors) to play!</p>
+
+    <div class="row">
+        
+        <div class="col s4"><img src="rock.png" alt="Rock" class="choice-img "></div>
+        <div class="col s4"><img src="paper.png" alt="Paper" class="choice-img "></div>
+        <div class="col s4"><img src="scissors.png" alt="Scissors" class="choice-img "></div>
+    </div>
+
+    <div id="resultBox" class="card-panel" style="display: none;">
+        <h5>Results:</h5>
+        <p id="resultText">The winner is: </p>
+    </div>
+
+    <button class="btn blue darken-4 waves-effect waves-light" type="button">Play Again!</button>
+    <script src="script.js"></script>
+</body>
+</html>
